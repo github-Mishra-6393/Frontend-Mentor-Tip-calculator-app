@@ -1,0 +1,712 @@
+
+/* MAX WIDTH --  725PX */
+@media only screen and (max-width:838px)and (min-width:741px){
+.title{
+    margin: 4rem 0 1.5rem 0;
+}
+.title img{
+    width: 3.5rem;
+}
+main{
+    width: 99vw;
+    overflow: hidden;
+}
+.wraper{
+    
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.bill-input{
+    position: relative;
+    margin: 1.5rem 0;
+    width: 16.2rem;
+}
+.label{
+    display: block;
+    margin: 0 0 0.2rem 1rem;
+    font-size: 0.9rem;
+}
+
+#bill-input, #person{
+    width: 14rem;
+    display: block;
+    margin: 0.2rem 1rem;
+    font-size: 1rem;
+
+    
+}
+
+.doller-ico{
+    top: 2rem;
+    left: 2rem;
+    width: 0.5rem;
+
+    
+}
+.tip-label, .person-title{
+    margin: 0.8rem 0 0.4rem 1rem;
+    font-size: 1rem;
+}
+.tip-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 1rem;
+}
+.tip{
+    
+    width: 3.2rem;
+    height: 1rem;
+    margin: 0.6rem 1.3rem 0 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+}
+#custom{
+    width: 3.4rem;
+    height: 1rem;
+    margin: 0.8rem 1.5rem 0 0;
+    font-size: 0.8rem;
+    padding-right: 0.8rem;
+
+}
+.person-ico{
+    top: 14rem;
+    left: 2rem;
+    width: 0.6rem;
+
+}
+
+.bill-wraper{
+    margin: 1rem auto;
+    border-radius: 5px;
+    width: 18rem;
+    height: 16rem;
+    padding: 1rem;
+
+}
+.bill-total, .tip-total{
+    margin: 0.6rem 0.4rem;
+}
+.ammount, .total{
+    font-size: 1rem;
+}
+
+.per{
+    font-size: 0.7rem;
+}
+
+.tip-value, .bill-value{
+    font-size: 1.1rem;
+    float: right;
+    margin: 0 1rem 0 0;
+}
+/* RESET BUTTON */
+#reset{
+    width: 17rem;
+    margin: 6rem 0.4rem 0.8rem 0.6rem;
+    font-size: 1.1rem;
+    padding: 5px 0;
+    
+}
+#reset:hover{
+    cursor: pointer;
+}
+/* CLASSES WHICH USED IN JS(ERROR MASSAGES) */
+/* BILL ERROR */
+.err-bill{
+    top: 0rem;
+    left: 6rem;
+    font-size: 0.7rem;
+    
+}
+
+
+/* TIP ERROR */
+.err-tip{
+    top: 5.5rem;
+    left: 4rem;
+    font-size: 0.7rem;
+    
+}
+
+/* PERSON ERROR */
+.err-person{
+    left: 9rem;
+    top: 15.5rem;
+    font-size: 0.8rem;
+    z-index: 2;
+}
+.err-zero,.err-p-zero,.err-tip{
+    display: none;
+}
+
+}
+@media only screen and (max-width:740px)and (min-width:676px){
+
+    .title{
+        margin: 4rem 0 1.5rem 0;
+    }
+    .title img{
+        width: 3.5rem;
+    }
+main{
+    width: 99vw;
+    overflow: hidden;
+}
+.wraper{
+    
+    border-radius: 1.4rem  auto ;
+    padding: 1.5rem;
+}
+.bill-input{
+    position: relative;
+    margin: 1.5rem 0;
+    width: 15.2rem;
+}
+.label{
+    display: block;
+    margin: 0 0 0.2rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+#bill-input, #person{
+    width: 13rem;
+    display: block;
+    margin: 0.2rem 0.5rem;
+    font-size: 1rem;
+
+    
+}
+
+.doller-ico{
+    top: 2rem;
+    left: 1.3rem;
+    width: 0.5rem;
+
+    
+}
+.tip-label, .person-title{
+    margin: 0.8rem 0 0.4rem 0.5rem;
+    font-size: 1rem;
+}
+.tip-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 0.5rem;
+}
+.tip{
+    
+    width: 5.7rem;
+    height: 1.2rem;
+    margin: 0.6rem 1.3rem 0 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+}
+#custom{
+    width: 5.9rem;
+    height: 1.2rem;
+    margin: 0.8rem 1.5rem 0 0;
+    font-size: 0.8rem;
+    padding-right: 0.8rem;
+
+}
+.person-ico{
+    top: 17rem;
+    left: 1.3rem;
+    width: 0.6rem;
+
+}
+
+.bill-wraper{
+    margin: 1rem auto;
+    border-radius: 5px;
+    width: 17rem;
+    padding: 1rem;
+
+}
+.bill-total, .tip-total{
+    margin: 0.6rem 0.4rem;
+}
+.ammount, .total{
+    font-size: 1rem;
+}
+
+.per{
+    font-size: 0.7rem;
+}
+
+.tip-value, .bill-value{
+    font-size: 1.1rem;
+    float: right;
+    margin: 0 1rem 0 0;
+}
+/* RESET BUTTON */
+#reset{
+    width: 16rem;
+    margin: 8.5rem 0.4rem 1.2rem 0.4rem;
+    font-size: 1.1rem;
+    padding: 5px 0;
+    
+}
+#reset:hover{
+    cursor: pointer;
+}
+/* CLASSES WHICH USED IN JS(ERROR MASSAGES) */
+/* BILL ERROR */
+.err-bill{
+    top: 0rem;
+    left: 6rem;
+    font-size: 0.7rem;
+    
+}
+
+
+/* TIP ERROR */
+.err-tip{
+    top: 5.5rem;
+    left: 3.5rem;
+    font-size: 0.7rem;
+    
+}
+
+/* PERSON ERROR */
+.err-person{
+    left: 8rem;
+    top: 18.4rem;
+    font-size: 0.8rem;
+    z-index: 2;
+}
+.err-zero,.err-p-zero,.err-tip{
+    display: none;
+}
+
+}
+@media only screen and (max-width:675px)and (min-width:556px){
+
+    .title{
+        margin: 4rem 0 1.5rem 0;
+    }
+    .title img{
+        width: 3.5rem;
+    }
+main{
+    width: 99vw;
+    overflow: hidden;
+}
+.wraper{
+    
+    border-radius: 1.4rem  auto ;
+    padding: 1.5rem;
+}
+.bill-input{
+    position: relative;
+    margin: 1.5rem 0;
+    width: 13rem;
+}
+.label{
+    display: block;
+    margin: 0 0 0.2rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+#bill-input, #person{
+    width: 10.3rem;
+    display: block;
+    margin: 0.2rem 0.5rem;
+    font-size: 1rem;
+
+    
+}
+
+.doller-ico{
+    top: 2rem;
+    left: 1.3rem;
+    width: 0.5rem;
+
+    
+}
+.tip-label, .person-title{
+    margin: 0.8rem 0 0.4rem 0.5rem;
+    font-size: 1rem;
+}
+.tip-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 0.5rem;
+}
+.tip{
+    
+    width: 4.4rem;
+    height: 1.2rem;
+    margin: 0.6rem 1.3rem 0 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+}
+#custom{
+    width: 4.6rem;
+    height: 1.2rem;
+    margin: 0.8rem 1.5rem 0 0;
+    font-size: 0.8rem;
+    padding-right: 0.8rem;
+
+}
+.person-ico{
+    top: 17rem;
+    left: 1.3rem;
+    width: 0.6rem;
+
+}
+
+.bill-wraper{
+    margin: 1rem auto;
+    border-radius: 5px;
+    width: 14rem;
+    padding: 1rem;
+
+}
+.bill-total, .tip-total{
+    margin: 0.6rem 0.4rem;
+}
+.ammount, .total{
+    font-size: 1rem;
+}
+
+.per{
+    font-size: 0.7rem;
+}
+
+.tip-value, .bill-value{
+    font-size: 1.1rem;
+    float: right;
+    margin: 0 1rem 0 0;
+}
+/* RESET BUTTON */
+#reset{
+    width: 13rem;
+    margin: 8.5rem 0.4rem 1.2rem 0.4rem;
+    font-size: 1rem;
+    padding: 5px 0;
+    
+}
+#reset:hover{
+    cursor: pointer;
+}
+/* CLASSES WHICH USED IN JS(ERROR MASSAGES) */
+/* BILL ERROR */
+.err-bill{
+    top: 0rem;
+    left: 3.7rem;
+    font-size: 0.7rem;
+    
+}
+
+
+/* TIP ERROR */
+.err-tip{
+    top: 5.5rem;
+    left: 1.5rem;
+    font-size: 0.7rem;
+    
+}
+
+/* PERSON ERROR */
+.err-person{
+    left: 5.6rem;
+    top: 18.5rem;
+    font-size: 0.8rem;
+    z-index: 2;
+}
+.err-zero,.err-p-zero,.err-tip{
+    display: none;
+}
+
+}
+@media only screen and (max-width:555px) and (min-width:461px){
+
+.main{
+    width: 100vw;
+}
+.title{
+    width: 2rem;
+    margin: 3rem auto 1.5rem auto ;
+}
+.title img{
+    width: 4rem;
+}
+.wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    border-radius: 1.4rem  auto ;
+    padding: 1.5rem;
+}
+.bill-input{
+    position: relative;
+    width: 80vw;
+}
+.label{
+    display: block;
+    margin: 0 0 0.2rem 1rem;
+    font-size: 1.1rem;
+}
+
+#bill-input, #person{
+    width: 70vw;
+    display: block;
+    margin: 0.2rem auto;
+    font-size: 1.5rem;
+
+    
+}
+
+.doller-ico{
+    top: 2rem;
+    left: 2rem;
+    width: 0.5rem;
+
+    
+}
+.tip-label, .person-title{
+    margin: 2rem 0 0.4rem 1rem;
+    font-size: 1.1rem;
+}
+.tip-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    max-width: 90vw;
+    margin: 0 0 0 1rem;
+}
+.tip{
+    
+    width: 19vw;
+    height: 2rem;
+    margin: 1rem 1.3rem 0 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 1.2rem;
+}
+#custom{
+    width: 20vw;
+    height: 2rem;
+    margin: 1rem 1.5rem 0 0;
+    font-size: 1.2rem;
+}
+.person-ico{
+    top: 20.8rem;
+    left: 2rem;
+    width: 0.9rem;
+
+}
+
+.bill-wraper{
+    margin: 1.6rem 0.6rem;
+    border-radius: 5px;
+    width: 70vw;
+    height: 17rem;
+    padding: 1rem;
+
+}
+.bill-total, .tip-total{
+    margin: 1.5rem 0.4rem;
+}
+.ammount, .total{
+    font-size: 1.2rem;
+    margin: 1rem 0 0.2rem 0;
+}
+.per{
+    font-size: 0.9rem;
+}
+
+.tip-value, .bill-value{
+    font-size: 1.8rem;
+}
+/* RESET BUTTON */
+#reset{
+    width: 65vw;
+    margin: 4rem  auto 0 auto;
+    font-size: 1.3rem;
+    padding: 5px 0;
+}
+#reset:hover{
+    cursor: pointer;
+}
+/* CLASSES WHICH USED IN JS(ERROR MASSAGES) */
+/* BILL ERROR */
+.err-bill{
+    top: 0rem;
+    left: 15rem;
+    font-size: 0.9rem;
+    
+}
+
+.err-zero,.err-p-zero,.err-tip{
+    display: none;
+}
+
+/* TIP ERROR */
+.err-tip{
+    top: 6.7rem;
+    left: 11rem;
+    font-size: 0.9rem;
+    
+}
+
+/* PERSON ERROR */
+.err-person{
+    left: 18rem;
+    top: 18.8rem;
+    font-size: 0.8rem;
+    z-index: 2;
+}
+
+
+}
+
+/* MOBILE */
+@media only screen and (max-width:460px) and (min-width:220px){
+
+.main{
+    width: 100vw;
+}
+.title{
+    width: 2rem;
+    margin: 2rem auto 1rem auto;
+}
+.title img{
+    width: 4rem;
+}
+.wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 88vw;
+    border-radius: 1.4rem  auto ;
+    padding: 1.5rem;
+}
+.bill-input{
+    position: relative;
+    width: 85vw;
+}
+.label{
+    display: block;
+    margin: 0 0 0.2rem 0.6rem;
+    font-size: 0.8rem;
+}
+
+#bill-input, #person{
+    width: 75vw;
+    display: block;
+    margin: 0.2rem auto;
+    font-size: 1.5rem;
+
+    
+}
+
+.doller-ico{
+    top: 2rem;
+    left: 2rem;
+    width: 0.8rem;
+
+    
+}
+.tip-label, .person-title{
+    margin: 2rem 0 0.4rem 0.6rem;
+    font-size: 1rem;
+}
+.tip-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 90vw;
+    margin: 0 0 0 0.6rem;
+}
+.tip{
+    
+    width: 32vw;
+    height: 1.8rem;
+    margin: 1rem 0 0 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 1.2rem;
+}
+#custom{
+    width: 32.5vw;
+    height: 1.8rem;
+    margin: 1rem 0 0 1.4rem;
+    font-size: 1rem;
+}
+.person-ico{
+    top: 22.5rem;
+    left: 2rem;
+    width: 0.8rem;
+
+}
+
+.bill-wraper{
+    margin: 1.6rem 0.6rem;
+    border-radius: 5px;
+    width: 75vw;
+    height: 15rem;
+    padding: 1rem;
+
+}
+.bill-total, .tip-total{
+    margin: 1.5rem 0.4rem;
+}
+.ammount, .total{
+    font-size: 1rem;
+    margin: 1rem 0 0.2rem 0;
+}
+.per{
+    font-size: 0.7rem;
+}
+
+.tip-value, .bill-value{
+    font-size: 1.4rem;
+}
+/* RESET BUTTON */
+#reset{
+    width: 70vw;
+    margin: 4rem  auto 0 auto;
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+#reset:hover{
+    cursor: pointer;
+}
+/* CLASSES WHICH USED IN JS(ERROR MASSAGES) */
+/* BILL ERROR */
+.err-bill{
+    top: 0rem;
+    left: 10rem;
+    font-size: 0.7rem;
+    
+}
+
+.err-zero{
+    display: none;
+}
+
+/* TIP ERROR */
+.err-tip{
+    top: 7rem;
+    left: 7rem;
+    display:none;
+    font-size: 0.7rem;
+    
+}
+
+/* PERSON ERROR */
+.err-person{
+    left: 13rem;
+    top: 21.2rem;
+    font-size: 0.8rem;
+    z-index: 2;
+}
+.err-p-zero{
+    display: none;
+}
+
+}
