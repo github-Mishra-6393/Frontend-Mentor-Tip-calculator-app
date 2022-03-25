@@ -23,7 +23,7 @@ html{
 
 main{
     
-    min-height: 95vh;
+    max-height: 95vh;
     width: 99vw;
 
 }
@@ -33,7 +33,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10rem 0 2rem 0 ;
+    margin: 6rem 0 2rem 0 ;
     width: 100vw;
 }
 .title img{
